@@ -6,7 +6,6 @@
 pub mod p2p;
 pub mod reputation;
 pub mod sync_manager;
-pub mod wide_cbor;
 
 use serde::{Serialize, Deserialize};
 use crate::block::{Block, BlockHeader};
